@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+/* Measuring Units: */
+/* 
+    1. Absolute:
+        a. Px - 1/96 in
+        b. Pc - 1/6 in
+        c. Pt - 1/72 in
+        d. In - 2.5 cm
+        e. mm - 10mm  = 1cm
+        d. cm - 10mm
+
+    2. Relative:
+        a. %  -> Depending on Parrent
+        b. vw -> View Port Width -> Page Width
+        c. vh -> View Port Height -> Page Height
+        d. vmin -> View Port Min Height -> Page Min Height
+        e. vmax -> View Port Max Height -> Page Max Height
+        f. em   -> 16px By Default or Depends on Font Size Of Self Or Parrent
+        f. rem  -> 16px By Default or Depends on Font Size Of Root Element
+*/
+
+#Box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto;
+  background-color: white;
+  color: black;
+  flex-direction: column;
+
+  height: 60vh;
+  width: 50vw;
+
+  font-size: 2vw;
+}
+
+#Box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: teal;
+
+  height: 200px;
+  width: 200px;
+
+  font-size: 2em;
+  height: 4em;
+  width: 6em;
+}

@@ -1,0 +1,82 @@
+body
+{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+#Box1
+{ 
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    height: 200px;
+    width: 200px;
+    background-color: teal;
+
+    /* visibility: hidden; */
+    /* display: none; */
+    /* display: inline; */
+    /* display: block; */
+    /* display: inline-block; */
+    
+    
+    
+    
+}
+#Box2
+{ 
+    /* display: inline-block; */
+
+    /* display: block; */
+
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    height: 200px;
+    width: 200px;
+    background-color: lawngreen;
+
+
+
+
+}
+
+
+
+#Main
+{
+    height: 800px;
+    border: 3px solid red;
+
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    align-items: center;
+    align-items: start;
+    align-items: end;
+
+    justify-content: center;
+    justify-content: start;
+    justify-content: end;
+
+    justify-content: space-evenly;
+    justify-content: space-around;
+    justify-content: space-between;
+    
+    flex-direction: column;
+
+
+
+
+}
+
+.item
+{
+  
+    height: 150px;
+    width: 150px;
+    background-color: white;
+
+    border: 1px solid red;
+}

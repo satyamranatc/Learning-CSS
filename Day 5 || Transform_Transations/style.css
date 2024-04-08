@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+#Box
+{
+    height: 400px;
+    width: 400px;
+
+    margin: 150px auto;
+
+    background-color: white;
+    color: teal;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+
+#Box:hover
+{
+    cursor: pointer;    
+ 
+    transform: rotate(20deg) translateY(100px) skewX(20deg) scale(1.3);
+
+    /*
+List of properties for CSS transform with their values:
+
+1. transform: 
+   - translate()
+   - translateX()
+   - translateY()
+   - translateZ()
+   - scale()
+   - scaleX()
+   - scaleY()
+   - scaleZ()
+   - rotate()
+   - rotateX()
+   - rotateY()
+   - rotateZ()
+   - skew()
+   - skewX()
+   - skewY()
+   - matrix()
+   - matrix3d()
+
+2. transform-origin: 
+   - length values (px, em, rem, etc.)
+   - percentage values (%)
+   - keywords (top, right, bottom, left, center)
+
+3. transform-style: 
+   - flat
+   - preserve-3d
+
+4. perspective: 
+   - length values (px, em, rem, etc.)
+
+5. perspective-origin: 
+   - length values (px, em, rem, etc.)
+   - percentage values (%)
+   - keywords (top, right, bottom, left, center)
+
+6. backface-visibility: 
+   - visible
+   - hidden
+*/
+
+
+
+    transform: rotate(80deg);
+    transform-origin: bottom center;
+
+
+    /* More In Animation Folder */
+
+}

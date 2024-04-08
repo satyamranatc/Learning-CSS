@@ -1,0 +1,120 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(219, 219, 219);
+    color: teal;
+    font-family: sans-serif;
+}
+
+
+
+#Main
+{
+    border: 3px solid rgb(255, 0, 0);
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.Card
+{
+    height: 300px;
+    background-color: black;
+    border: 1px solid teal;
+}
+
+.Card:nth-child(1)
+{
+    background-color: teal;
+    color: white;
+
+    /* align-self: flex-start; */
+
+    /* flex-grow: 0.5; */
+    flex: 0.5;
+    min-width: 150px;
+    flex-shrink: 2;
+}
+
+.Card:nth-child(2)
+{
+    background-color: red;
+    color: white;
+
+    /* align-self: flex-start; */
+
+    /* flex-grow: 0.5; */
+    flex: 0.3;
+    min-width: 100px;
+}
+
+.Card:nth-child(3)
+{
+    background-color: black;
+    color: white;
+
+    /* align-self: flex-start; */
+
+    /* flex-grow: 0.5; */
+    min-width: 50px;
+
+    flex: 0.2;
+}
+
+
+@media screen  and (max-width: 300px) {
+    #Main
+    {
+        flex-direction: column;
+    }
+
+    .Card
+    {
+        min-width: 100%;
+        flex: 1;
+    }
+    
+}
+
+/* 
+
+
+It seems like you're asking for a list of Flexbox properties in CSS. Flexbox is a layout model in CSS that allows you to design more complex and flexible layouts. Here's a list of some commonly used Flexbox properties:
+
+1. align-items: Specifies the alignment of flex items along the cross-axis of the flex container.
+2. justify-content: Defines how flex items are distributed along the main axis of the flex container.
+3. flex-direction: Establishes the direction of the main axis in the flex container.
+4. flex-wrap: Determines whether flex items are forced onto a single line or can wrap onto multiple lines.
+5. flex-shrink: Defines the ability for a flex item to shrink if necessary.
+6. flex-grow: Defines the ability for a flex item to grow if necessary.
+
+Here's a brief explanation of each:
+
+- align-items: This property aligns flex items along the cross-axis of the flex container. It accepts values such as `flex-start`, `flex-end`, `center`, `baseline`, and `stretch`.
+
+- justify-content: This property aligns flex items along the main axis of the flex container. It accepts values such as `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, and `space-evenly`.
+
+- flex-direction: This property establishes the main axis of the flex container. It can be set to `row` (horizontal), `row-reverse` (horizontal in reverse), `column` (vertical), or `column-reverse` (vertical in reverse).
+
+- flex-wrap: This property determines whether flex items are forced onto a single line or can wrap onto multiple lines. It can be set to `nowrap` (all flex items are on one line), `wrap` (flex items wrap onto multiple lines if needed), or `wrap-reverse` (flex items wrap onto multiple lines in reverse order).
+
+- flex-shrink: This property specifies how much a flex item will shrink relative to the rest of the flex items when there isn't enough space available in the flex container. It accepts a unitless number, where higher numbers shrink more.
+
+- flex-grow: This property specifies how much a flex item will grow relative to the rest of the flex items when there is extra space available in the flex container. It also accepts a unitless number, where higher numbers grow more.
+
+These properties together provide powerful tools for creating flexible layouts with CSS Flexbox.
+
+
+
+
+*/

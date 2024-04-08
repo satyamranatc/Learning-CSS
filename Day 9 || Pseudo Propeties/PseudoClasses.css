@@ -1,0 +1,23 @@
+
+
+/* 
+
+pseudo-classes 
+
+1. :first-child: This pseudo-class selects elements that are the first child of their parent element. It applies styles to the first child element only.
+
+2. :nth-child(n): This pseudo-class selects elements based on their position among a group of sibling elements. It accepts a formula (`an+b`) or a keyword (such as `odd` or `even`). For example, `:nth-child(3n+1)` selects every third element starting from the first.
+
+3. :nth-of-type(n): This pseudo-class selects elements of a specific type based on their position among a group of sibling elements of the same type. It works similarly to `:nth-child(n)` but considers only elements of the same type.
+
+4. :first-of-type: This pseudo-class selects the first element of its type among a group of sibling elements. It applies styles to the first element of its type only.
+
+5. :nth-last-child(n): This pseudo-class selects elements based on their position among a group of sibling elements, counting from the last child. It accepts the same syntax as `:nth-child(n)`.
+
+These pseudo-classes provide a way to target specific elements in a document structure based on their position or type, allowing for more precise styling and customization in CSS.
+
+
+
+
+
+*/

@@ -1,0 +1,30 @@
+body
+{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+#Main
+{
+    height: 600px;
+    width: 900px;
+    background-color: white;
+    margin: 150px auto;
+    color: black;
+    font-size: 40px;
+    position: relative;
+
+}
+
+#Box
+{
+    background-color: teal;
+    height: 280px;
+    width: 280px;
+
+    position:absolute;
+    right: 0;
+
+
+}
