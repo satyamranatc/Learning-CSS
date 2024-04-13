@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(212, 210, 210);
+    color: white;
+    font-family: sans-serif;
+}
+
+
+#Main
+{
+    /* border: 2px solid red; */
+    margin: 300px auto;
+    height: 300px;
+    width: 300px;
+
+    border: 1px red solid;
+  
+}
+
+#Main img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+
+}
+
+
