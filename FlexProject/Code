@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My site</title>
+    <link rel="stylesheet" href="./Demo.css">
+</head>
+<body>
+
+    <nav>
+        <h2>Logo</h2>
+        <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>More</li>
+        </ul>
+    </nav>
+    
+
+    <main>
+        <div id="Content">
+            <h2>Welcone To The World Of FUN</h2>
+            <h1>Enjoy The Best You Can</h1>
+            <button>Know More</button>
+        </div>
+    </main>
+
+    <div id="Cards">
+
+        <div class="Card">
+            <div class = "Image"></div>
+            <div class = "Card-Content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia obcaecati ipsam blanditiis sit at modi quis amet. Esse dolorem consectetur ea ut eum accusamus est facere a repellat mollitia.
+            </div>
+        </div>
+
+        <div class="Card">
+            <div class = "Image"></div>
+            <div class = "Card-Content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia obcaecati ipsam blanditiis sit at modi quis amet. Esse dolorem consectetur ea ut eum accusamus est facere a repellat mollitia.
+            </div>
+        </div>
+
+        <div class="Card">
+            <div class = "Image"></div>
+            <div class = "Card-Content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia obcaecati ipsam blanditiis sit at modi quis amet. Esse dolorem consectetur ea ut eum accusamus est facere a repellat mollitia.
+            </div>
+        </div>
+
+        <div class="Card">
+            <div class = "Image"></div>
+            <div class = "Card-Content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia obcaecati ipsam blanditiis sit at modi quis amet. Esse dolorem consectetur ea ut eum accusamus est facere a repellat mollitia.
+            </div>
+        </div>
+
+        <div class="Card">
+            <div class = "Image"></div>
+            <div class = "Card-Content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia obcaecati ipsam blanditiis sit at modi quis amet. Esse dolorem consectetur ea ut eum accusamus est facere a repellat mollitia.
+            </div>
+        </div>
+
+        <div class="Card">
+            <div class = "Image"></div>
+            <div class = "Card-Content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia obcaecati ipsam blanditiis sit at modi quis amet. Esse dolorem consectetur ea ut eum accusamus est facere a repellat mollitia.
+            </div>
+        </div>
+
+        <div class="Card">
+            <div class = "Image"></div>
+            <div class = "Card-Content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia obcaecati ipsam blanditiis sit at modi quis amet. Esse dolorem consectetur ea ut eum accusamus est facere a repellat mollitia.
+            </div>
+        </div>
+
+        <div class="Card">
+            <div class = "Image"></div>
+            <div class = "Card-Content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia obcaecati ipsam blanditiis sit at modi quis amet. Esse dolorem consectetur ea ut eum accusamus est facere a repellat mollitia.
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+</html>
+
+
+
+<!-- ------------------------------------------------------------------------ -->
+
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+nav
+{
+    background-color: rgb(38, 38, 38);
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+
+nav ul
+{
+
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 500px;
+    font-size: 20px;
+
+}
+
+main
+{
+    height: 600px;
+    background-image: url("https://images.wallpaperscraft.com/image/single/panda_animal_tree_202555_1280x1024.jpg");
+    background-position: center;
+    background-size: cover;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Content
+{
+    border: 1px solid gold;
+    padding: 50px 170px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Content button
+{
+    padding: 8px 17px;
+    background-color: rgb(255, 0, 102);
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    color: white;
+
+}
+
+#Cards
+{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   flex-wrap: wrap;
+   column-gap: 20px;
+   row-gap: 20px;
+}
+
+.Card
+{
+    height: 480px;
+    min-width: 380px;
+    flex: 1;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+
+    overflow: hidden;
+}
+
+
+
+.Image
+{
+    height: 40%;
+    background-image: url("https://img.freepik.com/free-photo/tropical-macaw-perched-vibrant-feathers-focus-generated-by-ai_188544-9720.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.Card-Content
+{
+    height: 60%;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 10px;
+}
+
