@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Site</title>
+    <link rel="stylesheet" href="./Demo.css">
+</head>
+<body>
+
+
+    <div id="Nav">
+        <h2>Logo</h2>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Menu</li>
+            <li id = "Service">Service</li>
+        </ul>
+    </div>
+
+    <main>
+
+        <div id="First"></div>
+
+        <div id="Second">
+
+
+            <div id="Content">
+                <h1>The World is Full of Magic</h1>
+                <h2>Explore The Magic With Us</h2>
+                <button>Join us</button>
+            </div>
+
+        
+          
+
+
+        </div>
+
+    </main>
+
+    
+</body>
+</html>
+
+
+
+______________________________Css_______________________________
+body
+{
+    background-color: #111111;
+    color: white;
+    font-family: sans-serif;
+}
+
+#Nav
+{
+
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 25px;
+}
+
+
+#Nav ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 400px;
+}
+
+
+#Service
+{
+    padding: 10px 20px;
+    background-color: rgb(252, 0, 101);
+    color: white;
+    border-radius: 20px;
+}
+
+main
+{
+    height: 680px;
+
+    display: flex;
+
+}
+
+#First
+{
+    width: 50%;
+
+    background-image: url("https://64.media.tumblr.com/56f0f81fda87ac4c967ccd43915fa441/c03e583045e5feae-cf/s500x750/36552203b4b925726f2d3d9f74b5d89d1dc18562.gif");
+    background-position: center;
+    background-size: cover;
+
+}
+
+#Second
+{
+    /* border: 1px solid blue; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#Content
+{
+
+    font-size: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+#Content button
+{
+    padding: 10px 25px;
+    color: white;
+    background-color: rgb(252, 0, 101);
+    border: none;
+    border-radius: 20px 60px;
+    font-size: 20px;
+    transition: 0.1s;
+
+}
+
+#Content button:hover
+{
+    border-radius: 60px 20px;
+    cursor: pointer;
+}
