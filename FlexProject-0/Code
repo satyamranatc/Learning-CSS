@@ -1,0 +1,118 @@
+body
+{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+nav
+{
+    color: white;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+
+nav ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 400px;
+}
+#contact
+{
+    padding: 10px 25px;
+    background-color: rgb(255, 0, 102);
+    border: none;
+    color: white;
+    border-radius: 30px;
+}
+
+
+main
+{
+    /* border: 1px solid red; */
+
+    height: 700px;
+
+    background-image: url("https://i.pinimg.com/originals/be/f4/84/bef484c1c2679790df69058bcd570d53.jpg");
+    background-position: center;
+    background-size: cover;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#Content
+{
+    /* border: 1px solid red; */
+
+    font-size: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#Content button 
+{
+    padding: 10px 25px;
+    background-color: rgb(255, 0, 102);
+    border: none;
+    color: white;
+    border-radius: 30px;
+}
+
+
+
+---------------------HTML-------------------
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySite</title>
+    <link rel="stylesheet" href="./Main.css">
+</head>
+<body>
+
+    <nav>
+        <h2>Travello</h2>
+        <ul>
+            <li>Home</li>
+            <li>Package</li>
+            <li>Rooms</li>
+            <li>Flights</li>
+            <li id = "contact">Contact</li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="Content">
+            <h1>Travel The World With Us</h1>
+            <h2>Book The Tour Now!</h2>
+            <button>Know More</button>
+        </div>
+    </main>
+
+    
+</body>
+</html>
