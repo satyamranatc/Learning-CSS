@@ -1,0 +1,163 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #111111
+    ;
+    color: white;
+    font-family: sans-serif;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    padding: 10px 20px;
+    height: 60px;
+}
+
+nav ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+#Contact
+{
+    padding: 8px 17px;
+    background-color: rgb(255, 0, 68);
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+main{
+    height: calc(100vh - 60px);
+
+    display: flex;
+
+}
+
+#First
+{
+
+    height: 100%;
+    width: 50%;
+
+    background-image: url("https://64.media.tumblr.com/56f0f81fda87ac4c967ccd43915fa441/c03e583045e5feae-cf/s500x750/36552203b4b925726f2d3d9f74b5d89d1dc18562.gif");
+    background-position:center;
+    background-size: cover;
+
+}
+
+#Second
+{
+
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Content
+{
+    /* border: 1px solid red; */
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+
+    padding: 50px;
+
+}
+
+#Content h1
+{
+    font-size: 44px;
+}
+
+#Content button
+{
+    padding: 8px 17px;
+    background-color: rgb(255, 0, 68);
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+
+#Cards
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.Card
+{
+
+    overflow: hidden;
+
+    border-radius: 12px;
+    height: 450px;
+    width: 400px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    box-shadow: 0px 15px 40px rgb(87, 87, 87);
+}
+
+.Card img
+{
+    height: 50%;
+    width: 70%;
+    object-fit: contain;
+    
+}
+
+.CardContent
+{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 30px;
+    text-align: center;
+    background-color: black;
+}
+
+.CardContent button
+{
+    padding: 7px 12px;
+    background-color: rgb(255, 0, 68);
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 30px;
+}
