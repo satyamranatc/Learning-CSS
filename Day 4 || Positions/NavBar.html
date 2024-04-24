@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Site</title>
+    <link rel="stylesheet" href="./Demo.css">
+</head>
+<body>
+
+    <nav>
+        <h2>Logo</h2>
+        <div id="SearchBar">
+            <input placeholder="Search...." type="text">
+            <button>Search</button>
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>Content</li>
+            <li>Blog</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="Card">
+
+        </div>
+    </main>
+
+   
+</body>
+</html>
+
+
+
+<!-----------------------Css----------------------  -->
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#020108;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+nav
+{
+
+    position: fixed;
+    width: 100vw;
+
+    display: flex;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 25px;
+    height: fit-content;
+
+    background-color: white;
+    color: black;
+
+
+    flex-wrap: wrap;
+}
+
+#SearchBar
+{
+    min-width: 250px;
+    width: 40%;
+    /* border: 2px solid red; */
+
+    display: flex;
+    column-gap: 20px;
+    row-gap: 10px;
+
+}
+
+#SearchBar input
+{
+    outline: none;
+    border: 1px solid black;
+    border-radius: 11px;
+    font-size: 18px;
+    width: 100%;
+    padding: 8px 20px;
+}
+
+
+#SearchBar button
+{
+    padding: 8px 17px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+nav ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
