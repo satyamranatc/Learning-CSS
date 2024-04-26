@@ -11,24 +11,37 @@ body {
   font-family: sans-serif;
 }
 
-/* Measuring Units: */
-/* 
-    1. Absolute:
-        a. Px - 1/96 in
-        b. Pc - 1/6 in
-        c. Pt - 1/72 in
-        d. In - 2.5 cm
-        e. mm - 10mm  = 1cm
-        d. cm - 10mm
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    2. Relative:
-        a. %  -> Depending on Parrent
-        b. vw -> View Port Width -> Page Width
-        c. vh -> View Port Height -> Page Height
-        d. vmin -> View Port Min Height -> Page Min Height
-        e. vmax -> View Port Max Height -> Page Max Height
-        f. em   -> 16px By Default or Depends on Font Size Of Self Or Parrent
-        f. rem  -> 16px By Default or Depends on Font Size Of Root Element
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+/* 
+ ! ------:Measuring Units:-----
+    ? 1. Relative Units: (Sizes are relative to something else)
+        ^ 1. % --> Percentage --> Relative to parent element's size
+        ^ 2. em  --> Font Size Of Self or Parent 16px Default --> Relative to the font size of the current element or its parent
+        ^ 3. rem --> Font Size Of Root 16px Default --> Relative to the font size of the root element (usually the <html> tag)
+        ^ 4. vw --> Viewport Width --> Relative to the width of the viewport (the visible part of the web page)
+        ^ 5. vh --> Viewport Height  --> Relative to the height of the viewport
+        ^ 6. vmin --> Viewport Minimum  --> Relative to the smaller dimension of the viewport (width or height)
+        ^ 7. vmax --> Viewport Maximum  --> Relative to the larger dimension of the viewport
+
+    ? 2. Absolute Units: (Fixed sizes, not recommended for responsive design)
+        ^ 1. Px --> Pixels --> Fixed size, one pixel on screen
+        ^ 2. Pc --> Picas --> Fixed size, one-sixth of an inch
+        ^ 3. Pt --> Points --> Fixed size, one seventy-second of an inch
+        ^ 4. cm --> Centimeters --> Fixed size, relative to real-world units
+        ^ 5. mm --> Millimeters --> Fixed size, smaller than centimeters
+        ^ 6. in --> Inches --> Fixed size, relative to real-world units
 */
 
 #Box {
