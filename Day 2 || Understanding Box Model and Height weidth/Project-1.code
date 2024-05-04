@@ -1,0 +1,96 @@
+body
+{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+#Main
+{
+    margin:  100px auto;
+    height: 600px;
+    width: 650px;
+    border: 2px solid white;
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+#First{
+    height: 350px;
+    background-image: url("https://assets.materialup.com/uploads/92c19733-bb00-4a59-82d6-51bc047a13de/preview.gif");
+    background-position: center;
+
+
+}
+#Second{
+    height: 250px;
+}
+
+#Second form input
+{
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid rgb(255, 0, 93);
+    outline: none;
+}
+
+#Btn1
+{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(255, 0, 140);
+    color: white;
+}
+
+#Btn2
+{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(0, 183, 255);
+    color: white;
+}
+
+
+
+
+
+-----------------------Html--------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Site</title>
+    <link rel="stylesheet" href="./Demo.css">
+</head>
+<body>
+
+
+    <div id="Main">
+        <div id="First"></div>
+        <div id="Second">
+            <center>
+                <form>
+                    <br>
+                    <h4>Enter Your Details</h4>
+                    <input type="text" placeholder="Username">
+                    <br>
+                    <br>
+                    <input type="password" placeholder="Password">
+                    <br>
+                    <br>
+                    <button id = "Btn1">SignIn</button>
+                    <button id = "Btn2">SignUp</button>
+
+                </form>
+            </center>
+        </div>
+    </div>
+
+   
+</body>
+</html>
+
+  
