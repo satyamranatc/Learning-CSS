@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Site</title>
+    <link rel="stylesheet" href="./Main.css">
+</head>
+<body>
+
+    <nav>
+        <h2>Logo</h2>
+        <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="Content">
+            <h2>The Wolrd is Full Of Wonder</h2>
+            <h1>Explore With Us</h1>
+            <div id="Line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dicta in. Facilis ipsa laboriosam, nostrum amet eos voluptatibus fugiat consequuntur quisquam illo dolores, tenetur, aliquam provident explicabo iste nobis aliquid.</p>
+            <button>Join Team</button>
+        </div>
+    </main>
+
+    <div id="MyCards">
+
+        <div class="Card">
+            <img src="https://media.newyorker.com/photos/62c4511e47222e61f46c2daa/4:3/w_2663,h_1997,c_limit/shouts-animals-watch-baby-hemingway.jpg" alt="">
+            <h3>Card 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dicta in. Facilis ipsa laboriosam, nostrum amet eos voluptatibus fugiat consequuntur quisquam illo dolores, tenetur, aliquam provident explicabo iste nobis aliquid.</p>
+            <button id = "Btn1">Read More</button>
+            <button id = "Btn2">See In Real</button>
+            
+        </div>
+
+        <div class="Card">
+            <img src="https://media.newyorker.com/photos/62c4511e47222e61f46c2daa/4:3/w_2663,h_1997,c_limit/shouts-animals-watch-baby-hemingway.jpg" alt="">
+            <h3>Card 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dicta in. Facilis ipsa laboriosam, nostrum amet eos voluptatibus fugiat consequuntur quisquam illo dolores, tenetur, aliquam provident explicabo iste nobis aliquid.</p>
+            <button id = "Btn1">Read More</button>
+            <button id = "Btn2">See In Real</button>
+            
+        </div>
+
+        <div class="Card">
+            <img src="https://media.newyorker.com/photos/62c4511e47222e61f46c2daa/4:3/w_2663,h_1997,c_limit/shouts-animals-watch-baby-hemingway.jpg" alt="">
+            <h3>Card 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dicta in. Facilis ipsa laboriosam, nostrum amet eos voluptatibus fugiat consequuntur quisquam illo dolores, tenetur, aliquam provident explicabo iste nobis aliquid.</p>
+            <button id = "Btn1">Read More</button>
+            <button id = "Btn2">See In Real</button>
+            
+        </div>
+
+        <div class="Card">
+            <img src="https://media.newyorker.com/photos/62c4511e47222e61f46c2daa/4:3/w_2663,h_1997,c_limit/shouts-animals-watch-baby-hemingway.jpg" alt="">
+            <h3>Card 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dicta in. Facilis ipsa laboriosam, nostrum amet eos voluptatibus fugiat consequuntur quisquam illo dolores, tenetur, aliquam provident explicabo iste nobis aliquid.</p>
+            <button id = "Btn1">Read More</button>
+            <button id = "Btn2">See In Real</button>
+            
+        </div>
+
+        <div class="Card">
+            <img src="https://media.newyorker.com/photos/62c4511e47222e61f46c2daa/4:3/w_2663,h_1997,c_limit/shouts-animals-watch-baby-hemingway.jpg" alt="">
+            <h3>Card 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dicta in. Facilis ipsa laboriosam, nostrum amet eos voluptatibus fugiat consequuntur quisquam illo dolores, tenetur, aliquam provident explicabo iste nobis aliquid.</p>
+            <button id = "Btn1">Read More</button>
+            <button id = "Btn2">See In Real</button>
+            
+        </div>
+
+        <div class="Card">
+            <img src="https://media.newyorker.com/photos/62c4511e47222e61f46c2daa/4:3/w_2663,h_1997,c_limit/shouts-animals-watch-baby-hemingway.jpg" alt="">
+            <h3>Card 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dicta in. Facilis ipsa laboriosam, nostrum amet eos voluptatibus fugiat consequuntur quisquam illo dolores, tenetur, aliquam provident explicabo iste nobis aliquid.</p>
+            <button id = "Btn1">Read More</button>
+            <button id = "Btn2">See In Real</button>
+            
+        </div>
+
+        <div class="Card">
+            <img src="https://media.newyorker.com/photos/62c4511e47222e61f46c2daa/4:3/w_2663,h_1997,c_limit/shouts-animals-watch-baby-hemingway.jpg" alt="">
+            <h3>Card 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dicta in. Facilis ipsa laboriosam, nostrum amet eos voluptatibus fugiat consequuntur quisquam illo dolores, tenetur, aliquam provident explicabo iste nobis aliquid.</p>
+            <button id = "Btn1">Read More</button>
+            <button id = "Btn2">See In Real</button>
+            
+        </div>
+
+        <div class="Card">
+            <img src="https://media.newyorker.com/photos/62c4511e47222e61f46c2daa/4:3/w_2663,h_1997,c_limit/shouts-animals-watch-baby-hemingway.jpg" alt="">
+            <h3>Card 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dicta in. Facilis ipsa laboriosam, nostrum amet eos voluptatibus fugiat consequuntur quisquam illo dolores, tenetur, aliquam provident explicabo iste nobis aliquid.</p>
+            <button id = "Btn1">Read More</button>
+            <button id = "Btn2">See In Real</button>
+            
+        </div>
+
+
+    </div>
+
+
+    <footer>
+        <h1>Contact Us</h1>
+
+        <div id="FormData">
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Subject">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+
+
+    </footer>
+    
+</body>
+</html>
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(227, 227, 239);
+    color: black;
+    font-family: sans-serif;
+}
+
+nav
+{
+
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 20px;
+    
+}
+
+
+nav ul
+{
+    list-style: none;
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+}
+
+main
+{
+    /* border: 3px solid red; */
+    height: 740px;
+
+    background-image: url("./thumb-1920-65289.jpg");
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#Content
+{
+    width: 80%;
+    height: 70%;
+    border: 2px solid white;
+
+    color: white;
+    font-size: 40px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Line
+{
+    width: 70%;
+    height: 4px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+#Content p
+{
+    margin: 20px 0;
+    font-size: 16px;
+    width: 60%;
+}
+
+#Content button
+{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #a42e3a;
+    margin-top: 30px;
+}
+
+#Content button:hover
+{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#MyCards
+{
+
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 5px;
+    row-gap: 15px;
+}
+
+
+.Card
+{
+   height: 450px;
+   width: 330px;
+   /* border: 2px solid red; */
+   background-color: white;
+
+   box-shadow: 0px 5px 5px gray
+
+}
+.Card img
+{
+   height: 230px;
+   width: 100%;
+}
+
+.Card h3
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    
+
+}
+.Card p
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#Btn1
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+}
+#Btn2
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(0, 255, 217);
+    color: black;
+    border-radius: 30px;
+}
+
+footer
+{
+    width: 100vw;
+    height: 60vh;
+    background-color: white;
+    flex-direction: column;
+    row-gap: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+
+#FormData
+{
+    width: 60%;
+    height: 90%;
+    background-color: rgb(245, 245, 245);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#FormData form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+    color: white;
+}
+#FormData input,textarea
+{
+    width: 400px;
+   background: transparent;
+   border: 1px solid black;
+   border-radius: 20px;
+   padding: 10px 20px;
+   color: white;
+}
+
